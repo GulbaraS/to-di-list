@@ -15,10 +15,10 @@ body {
 .wrapper {
   max-width: 1110px;
   margin: auto;
-  max-width: 600px;
+  width: 600px;
   position: absolute;
-  top: 150px;
-  left: 35%;
+  top: 130px;
+  left: 33%;
   text-align: center;
 }
 
@@ -47,7 +47,7 @@ input {
 button {
     display: block;
     width: 400px;
-    margin: 20px;
+    margin-left: 80px;
     border-radius: 5px;
     height: 50px;
     font-size: 20px;
@@ -56,9 +56,8 @@ button {
 .todo-list {
     border: 1px solid gray;
     border-radius: 5px;
-    width: 400px;
+    width: 600px;
     padding: 20px;
     text-align: center;
-    margin: 35px;
     min-height: 50px;
 }
