@@ -29,6 +29,16 @@ body {
 
 }
 
+.dropdown-menu {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+.todo-item {
+    display: none;
+    position: absolute;
+}
+
 input {
     width: 400px;
     border-radius: 5px;
