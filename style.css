@@ -15,7 +15,7 @@ body {
 .wrapper {
   max-width: 1110px;
   margin: auto;
-  max-width: 800px;
+  max-width: 600px;
   position: absolute;
   top: 150px;
   left: 35%;
@@ -41,4 +41,14 @@ button {
     border-radius: 5px;
     height: 50px;
     font-size: 20px;
+}
+
+.todo-list {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    margin: 35px;
+    min-height: 50px;
 }
