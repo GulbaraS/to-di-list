@@ -1,32 +1,17 @@
 
-// const btn = document.querySelector(".btn");
-
-// btn.addEventListener("click", addToList);
-
-// function addToList( {
-//         userInput = input.value;
-// };
-
 const btn = document.querySelector(".btn");
 
-const input = document.querySelector("#inputTodo");
+const input = document.querySelector("#input-todo");
 
-const userInput = document.createElement("p");
-userInput.className = "usrer-input";
-userInput.style.border = "1px solid gray";
-userInput.style.borderRadius = "5px";
-userInput.style.padding = "20px";
+const myTodoList = document.querySelector(".todo-list");
 
-const todoOutput = document.querySelector("#todo-output");
-
-
-
-
-btn.addEventListener("click", addToList);
-
-function addToList(){
-    todoOutput.appendChild("userInput");
-     const userInput = input.value;
-
-
-};
+btn.addEventListener("click", function(){
+     const outputList = document.createElement("div");
+    outputList.className = "todo-item";
+    myTodoList.appendChild(outputList);
+    outputList.innerText = input.value;
+    input.value = "";
+    outputList.addEventListener("click", function(){
+        outputList.remove();
+    });
+});

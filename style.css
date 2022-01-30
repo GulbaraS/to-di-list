@@ -52,6 +52,7 @@ button {
     display: block;
     width: 400px;
     margin-left: 84px;
+    margin-bottom: 20px;
     border: 1px solid gray;
     border-radius: 5px;
     height: 50px;
@@ -68,9 +69,10 @@ button {
 }
 
 .todo-item {
-  margin-bottom: 15px;
-  background-color: rgb(53, 51, 51);
+  margin: 15px 15px 15px 84px;
+  background-color: rgb(161, 161, 161);
   cursor: pointer;
   border-radius: 5px;
   padding: 15px;
+  width: 400px;
 }
