@@ -29,25 +29,30 @@ body {
 
 }
 
-.dropdown-menu {
-    list-style: none;
-    position: relative;
-    display: inline-block;
-}
-.todo-item {
-    display: none;
-    position: absolute;
-}
-
-input {
+#input-todo {
+    cursor: pointer;
+    display: block;
     width: 400px;
+    border: 1px solid gray;
     border-radius: 5px;
     height: 50px;
+    margin-bottom: 20px;
+    margin-left: 84px;
+    font-size: 18px;
 }
+
+
+.todo-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+}
+
 button {
     display: block;
     width: 400px;
-    margin-left: 80px;
+    margin-left: 84px;
+    border: 1px solid gray;
     border-radius: 5px;
     height: 50px;
     font-size: 20px;
@@ -60,4 +65,12 @@ button {
     padding: 20px;
     text-align: center;
     min-height: 50px;
+}
+
+.todo-item {
+  margin-bottom: 15px;
+  background-color: rgb(53, 51, 51);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
 }
