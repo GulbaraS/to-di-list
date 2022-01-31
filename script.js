@@ -14,4 +14,10 @@ btn.addEventListener("click", function(){
     outputList.addEventListener("click", function(){
         outputList.remove();
     });
+    
+const form = document.querySelector(".form");
+form.addEventListener("submit", function(e){
+    e.preventDefault();
+});
+
 });
